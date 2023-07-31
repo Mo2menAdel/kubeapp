@@ -18,7 +18,7 @@ spec:
         - name: vprodb
           image: kurbmoa/vprofiledb
           args:
-            - "ignore-db-dir"
+            - "--ignore-db-dir"
             - "lost+found"
           volumeMounts:
             - mountPath: /var/lib/mysql
